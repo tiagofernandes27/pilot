@@ -8,3 +8,5 @@ My idea is for the player to be a ship that moves arround the viewport and that 
 Maybe this ship serves as the protector of a planet against hostile enemies(?) Idk, we'll figure it out eventually.
 
 Eventually, I want to add a purpose to the game. Maybe turning into a Roguelite-ish game where when the player dies, he gets rewarded for what he has accomplished in the "run". And waste those rewards on some better equipment or power-ups/abilities to help him get further on the next run.
+
+### the [todo](../TODO.md) file is where I will be adding everything I want to implement in the game, and updating it with what I have done. So you guys can come along with me in this journey with something to look to/for.
