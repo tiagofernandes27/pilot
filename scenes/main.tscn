@@ -1,0 +1,32 @@
+[gd_scene load_steps=4 format=3 uid="uid://71rx6x3fwjmw"]
+
+[ext_resource type="Script" uid="uid://d2ne6264rwutn" path="res://scripts/ui_manager.gd" id="1_jyhfs"]
+[ext_resource type="PackedScene" uid="uid://c0agtjt5lxud" path="res://scenes/player.tscn" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://ccm32ly6c774m" path="res://manager.gd" id="1_sugp2"]
+
+[node name="Node" type="Node"]
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_jyhfs")
+
+[node name="Manager" type="Node2D" parent="."]
+script = ExtResource("1_sugp2")
+
+[node name="Location" type="Marker2D" parent="Manager"]
+
+[node name="Player" parent="." instance=ExtResource("1_o5qli")]
+position = Vector2(295.175, 184.465)
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(-2, 2)
+anchor_mode = 0
+limit_left = 0
+limit_top = 0
+limit_right = 1280
+limit_bottom = 720
