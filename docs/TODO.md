@@ -10,8 +10,13 @@
 (X) Make interactions\
 (X) Player Take damage & Death\
 (X) Spawn traps at different locations\ 
+( ) Make traps move in random directions in the map\
+( ) Damage traps\
+( ) Make a type of trap that when destroyed, spawns more little traps going in multiple directions\
+( ) Implement Health bars (at least on player)\
 
 ### Visuals (Not necessary atm, but cool to keep the motivation :p )
 ( ) Pilot asset\
 ( ) Cursor asset\
 ( ) Projectile asset\
+( ) Change the background color to fit the game theme more\
