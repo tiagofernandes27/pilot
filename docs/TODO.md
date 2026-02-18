@@ -1,6 +1,6 @@
 # To Do
 
-### Player
+### Mechanics
 (X) Create player node\
 (X) Implement player movement\
 (X) Make player always face cursor\
@@ -14,9 +14,14 @@
 ( ) Damage traps\
 ( ) Make a type of trap that when destroyed, spawns more little traps going in multiple directions\
 ( ) Implement Health bars (at least on player)\
+( ) Add Score / any tipe of currency\
+( ) Add Power ups\
 
 ### Visuals (Not necessary atm, but cool to keep the motivation :p )
 ( ) Pilot asset\
 ( ) Cursor asset\
 ( ) Projectile asset\
 ( ) Change the background color to fit the game theme more\
+
+### Sounds
+...\
