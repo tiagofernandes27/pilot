@@ -22,6 +22,7 @@
 ( ) Cursor asset\
 ( ) Projectile asset\
 ( ) Change the background color to fit the game theme more\
+( ) Trap asset\
 
 ### Sounds
 ...\
