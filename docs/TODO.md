@@ -16,13 +16,15 @@
 ( ) Implement Health bars (at least on player)\
 ( ) Add Score / any tipe of currency\
 ( ) Add Power ups\
+( ) Make dialogs\
+( ) Make a simple puzzle
 
 ### Visuals (Not necessary atm, but cool to keep the motivation :p )
 ( ) Pilot asset\
 ( ) Cursor asset\
 ( ) Projectile asset\
 ( ) Change the background color to fit the game theme more\
-( ) Trap asset\
+( ) Trap asset
 
 ### Sounds
-...\
+...
