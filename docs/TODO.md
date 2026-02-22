@@ -13,7 +13,7 @@
 ( ) Make traps move in random directions in the map\
 ( ) Damage traps\
 ( ) Make a type of trap that when destroyed, spawns more little traps going in multiple directions\
-( ) Implement Health bars (at least on player)\
+(x) Implement Health bars (at least on player)\
 ( ) Add Score / any tipe of currency\
 ( ) Add Power ups\
 ( ) Make dialogs\

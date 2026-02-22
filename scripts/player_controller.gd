@@ -9,13 +9,12 @@ signal health_changed
 
 var direction : Vector2
 
-var health : float
 var max_health : float = 10.0
+var health : float = max_health
 
 var can_shoot = true
 
 func _ready():
-	print(position)
 	health = max_health
 	pass
 
