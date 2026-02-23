@@ -19,6 +19,10 @@
 ( ) Make dialogs\
 ( ) Make a simple puzzle
 
+### To Implement as good practice
+( ) Global auto load script to store global variables (like in game currency fe)\
+( ) Audio Manager, probably also as a auto load script, to control all the audio in the game
+
 ### Visuals (Not necessary atm, but cool to keep the motivation :p )
 ( ) Pilot asset\
 ( ) Cursor asset\
