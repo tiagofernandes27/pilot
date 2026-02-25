@@ -10,10 +10,9 @@
 (X) Make interactions\
 (X) Player Take damage & Death\
 (X) Spawn traps at different locations\
-( ) Make traps move in random directions in the map\
 ( ) Damage traps\
-( ) Make a type of trap that when destroyed, spawns more little traps going in multiple directions\
 (x) Implement Health bars (at least on player)\
+( ) Make traps move in random directions in the map\
 ( ) Add Score / any tipe of currency\
 ( ) Add Power ups\
 ( ) Make dialogs\
