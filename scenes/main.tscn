@@ -1,12 +1,25 @@
-[gd_scene load_steps=4 format=3 uid="uid://71rx6x3fwjmw"]
+[gd_scene load_steps=5 format=3 uid="uid://71rx6x3fwjmw"]
 
 [ext_resource type="Script" uid="uid://d2ne6264rwutn" path="res://scripts/ui_manager.gd" id="1_jyhfs"]
 [ext_resource type="PackedScene" uid="uid://c0agtjt5lxud" path="res://scenes/player.tscn" id="1_o5qli"]
-[ext_resource type="Script" uid="uid://ccm32ly6c774m" path="res://manager.gd" id="1_sugp2"]
+[ext_resource type="Script" uid="uid://ccm32ly6c774m" path="res://scripts/spawnerManager.gd" id="1_sugp2"]
 
-[node name="Node" type="Node"]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_sugp2"]
+content_margin_left = 2.0
+content_margin_top = 2.0
+content_margin_right = 2.0
+content_margin_bottom = 2.0
+bg_color = Color(0.11764706, 0.49411765, 0.34117648, 1)
+corner_radius_top_left = 6
+corner_radius_top_right = 6
+corner_radius_bottom_right = 6
+corner_radius_bottom_left = 6
+corner_detail = 6
+
+[node name="Main" type="Node"]
 
 [node name="UI" type="Control" parent="."]
+z_index = 2
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -15,18 +28,34 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_jyhfs")
 
-[node name="Label" type="Label" parent="UI"]
+[node name="score" type="Label" parent="UI"]
 layout_mode = 1
-offset_right = 40.0
-offset_bottom = 23.0
-text = "health"
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -31.0
+offset_top = 21.0
+offset_right = 31.0
+offset_bottom = 44.0
+grow_horizontal = 2
+theme_override_font_sizes/font_size = 40
+text = "0"
 horizontal_alignment = 1
 uppercase = true
 
-[node name="Manager" type="Node2D" parent="."]
+[node name="health_bar" type="ProgressBar" parent="UI"]
+layout_mode = 0
+offset_left = 23.0
+offset_top = 20.0
+offset_right = 233.0
+offset_bottom = 37.0
+theme_override_styles/fill = SubResource("StyleBoxFlat_sugp2")
+show_percentage = false
+
+[node name="spawnerManager" type="Node2D" parent="."]
 script = ExtResource("1_sugp2")
 
-[node name="Location" type="Marker2D" parent="Manager"]
+[node name="Location" type="Marker2D" parent="spawnerManager"]
 
 [node name="Player" parent="." instance=ExtResource("1_o5qli")]
 position = Vector2(295.175, 184.465)

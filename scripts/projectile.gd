@@ -9,6 +9,7 @@ var damage : float = 1.0
 var spawnPos : Vector2
 
 func _ready():
+	add_to_group("player_projectile")
 	global_position = spawnPos
 	global_rotation = direction
 	timer.start(lifeTime)

@@ -10,16 +10,17 @@
 (X) Make interactions\
 (X) Player Take damage & Death\
 (X) Spawn traps at different locations\
-( ) Damage traps\
-(x) Implement Health bars (at least on player)\
+(X) Damage traps\
+(X) Implement Health bars\
 ( ) Make traps move in random directions in the map\
-( ) Add Score / any tipe of currency\
+(X) Add Score / any tipe of currency\
+( ) Add wave system
 ( ) Add Power ups\
 ( ) Make dialogs\
 ( ) Make a simple puzzle
 
 ### To Implement as good practice
-( ) Global auto load script to store global variables (like in game currency fe)\
+(X) Global auto load script to store global variables (like in game currency fe)\
 ( ) Audio Manager, probably also as a auto load script, to control all the audio in the game
 
 ### Visuals (Not necessary atm, but cool to keep the motivation :p )
