@@ -14,7 +14,7 @@
 (X) Implement Health bars\
 ( ) Make traps move in random directions in the map\
 (X) Add Score / any tipe of currency\
-( ) Add wave system
+( ) Add wave system\
 ( ) Add Power ups\
 ( ) Make dialogs\
 ( ) Make a simple puzzle
