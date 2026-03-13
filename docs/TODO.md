@@ -14,6 +14,7 @@
 (X) Implement Health bars\
 ( ) Make traps move in random directions in the map\
 (X) Add Score / any tipe of currency\
+( ) Make projectiles not perfurating\
 ( ) Add wave system\
 ( ) Add Power ups\
 ( ) Make dialogs\
