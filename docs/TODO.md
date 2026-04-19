@@ -16,7 +16,7 @@
 (X) Add Score / any tipe of currency\
 ( ) Make projectiles not perfurating\
 ( ) Add wave system\
-( ) Add Power ups\
+(X) Add Power ups\
 ( ) Make dialogs\
 ( ) Make a simple puzzle
 
